@@ -1,0 +1,8 @@
+node_modules/
+.docusaurus/
+.git/
+.github/
+.gitignore
+README.md
+.DS_Store
+*.log 
