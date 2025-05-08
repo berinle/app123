@@ -1,12 +1,10 @@
 ---
 applications:
 - name: docusaurus-app
-  memory: 256M
+  memory: 512M
   instances: 1
   buildpacks:
     - nodejs_buildpack
   command: npm run serve
-  routes:
-    - route: docusaurus-app.${CF_DOMAIN}
   env:
-    NODE_ENV: production 
+    NODE_ENV: production
